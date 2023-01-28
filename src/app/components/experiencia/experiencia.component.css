@@ -1,0 +1,12 @@
+/* NO PONER WINDTH Y HEIGT AL 1*/
+.img-fluid{
+    height: 100%;
+}
+.contenedor{
+    position: relative;
+}
+.contenedor-hijo{
+    position: absolute;
+    bottom: 50%;
+    margin:auto;
+}
