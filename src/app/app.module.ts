@@ -9,6 +9,7 @@ import { BodyComponent } from './components/body/body.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { LoginComponent } from './components/login/login.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { ProyectsComponent } from './components/proyects/proyects.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     BodyComponent,
     AcercadeComponent,
     LoginComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    ProyectsComponent
   ],
   imports: [
     BrowserModule,

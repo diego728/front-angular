@@ -1,0 +1,21 @@
+img{
+    height: 145px;
+    width: 260px;
+    padding: 0.7rem;
+}
+.card-deck{
+    display: flex;
+    margin-left: 10%;
+}
+.card{
+    margin: 1rem;
+    margin-top: 4rem;
+    transition: transform 1s;
+    
+}
+.card:hover{
+    transform: scale(1.5);
+    
+    z-index: 10;
+}
+
